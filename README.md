@@ -6,10 +6,10 @@ Code Owners Analyzer provides data about code ownership across a repository.
 
 ```sh
 python main.py \
-  --team-members <TEAM MEMBERS> \
-  --min-commits 3 \
-  --threshold <PERCENTAGE> \
-  --since <DATE>
+  --team-members <TEAM MEMBERS:str> \
+  --min-commits <MININUM:int> \
+  --threshold <PERCENTAGE:float> \
+  --since <DATE:datestr>
 ```
 
 ## Output
